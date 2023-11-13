@@ -1,0 +1,78 @@
+article {
+    width: 100%;
+}
+
+.row.a {
+    font-size: 12px;
+}
+
+.row.b {
+    font-size: 14px;
+}
+
+.row.c {
+    font-size: 16px;
+}
+
+.row.d {
+    font-size: 18px;
+}
+
+.row.e {
+    font-size: 20px;
+}
+
+/* container */
+
+button#acess-button {
+    padding: 5px 10px;
+    border: 2px solid #000;
+    position: fixed;
+    left: 1%;
+    top: 50%;
+    z-index: 999;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: grid;
+}
+
+.container-acessibilidade {
+    background: #dcdcdc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    z-index: 999;
+}
+
+.container-acessibilidade .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.topo-painel {
+    background: #1F2F36;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+span#close-painel {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.slider-container {
+    text-align: center;
+  }
+  
+  .slider {
+    width: 50%;
+  }
